@@ -259,29 +259,44 @@ section {
 /* ABOUT SECTION */
 
 #about {
-  position: relative;
+
+  position: relative;
+
 }
+
+
 
 .about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+
+  gap: 2rem;
+
+  margin-bottom: 2rem;
+
+  margin-top: 2rem;
+
 }
 
+
+
 .about-details-container {
-  display: flex;
-  justify-content: center; 
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+
+  justify-content: center;
+
+  flex-direction: column;
+
 }
+
+
 
 .about-containers,
-.about-details-container {
-  display: flex;
-  align-items: center;
-}
 
+.about-details-container {
+
+  display: flex;
+
+  align-items: center;
+
+}
 .about-pic {
   border-radius: 2rem;
 }
