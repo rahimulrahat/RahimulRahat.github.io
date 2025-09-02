@@ -265,7 +265,7 @@ section {
 /* ABOUT SECTION */
 
 #about {
-  position: relative;
+  position: center;
 }
 
 .about-containers {
@@ -284,14 +284,6 @@ section {
   display: flex;
 }
 
-.about-pic {
-  border-radius: 2rem;
-}
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
 
 
 .arrow {
